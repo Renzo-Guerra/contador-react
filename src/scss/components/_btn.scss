@@ -1,0 +1,14 @@
+@use '../base/' as *;
+@use "sass:color";
+
+.btn{
+  padding: .5rem;
+  border-radius: 1rem;
+  background-color: $color-principal;
+  transition: 
+    background-color 200ms ease-in;
+  &:hover{
+    cursor: pointer;
+    background-color:  $color-claro;
+  }
+}

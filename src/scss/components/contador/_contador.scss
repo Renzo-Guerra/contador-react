@@ -1,0 +1,18 @@
+@use '../../base/' as *;
+
+.contador{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  margin: auto;
+  width: min(100%, 30rem);
+  border-radius: 1rem;
+  background-color: $color-claro;
+  box-shadow: 0 0 21px 6px rgb(0,0,0);
+  h1{
+    font-weight: $fw-700;
+  }
+}
